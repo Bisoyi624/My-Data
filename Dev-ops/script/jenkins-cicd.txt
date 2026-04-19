@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('stage-1') {
+            steps {
+                echo 'git clone'
+            }
+        }
+        stage('stage-2') {
+            steps {
+                echo 'mvn build'
+            }
+        }
+        stage('stage-3') {
+            steps {
+                echo 'nexus upload'
+            }
+        }
+    }
+}
