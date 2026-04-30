@@ -6,7 +6,7 @@ EKS Cluster Setup:
 
 Launch Instance: Ubuntu - T2 Micro, 8GB
 change the hostname:
-	sudo hostnamectl set hostname eks-server
+	sudo hostnamectl set-hostname eks-server
 
 sudo apt update && sudo apt upgrade -y
 
