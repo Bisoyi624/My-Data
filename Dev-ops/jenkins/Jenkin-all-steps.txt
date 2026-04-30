@@ -116,19 +116,36 @@ Take 3 Ubuntu machines,
 
 Sonar Qube set-up:
 sudo hostnamectl set-hostname sonar
+
+
 sudo apt update && sudo apt upgrade -y
+sleep 2
 Java is required to run sonarqube.
+sleep 2
 sudo apt install openjdk-21-jdk -y
+sleep 2
 mkdir sonarqube
+sleep 2
 cd sonarqube
+sleep 2
 sudo apt install unzip -y
+sleep 2
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.3.0.120487.zip
+sleep 2
 unzip sonarqube-26.3.0.120487.zip
+sleep 2
 rm -rf sonarqube-26.3.0.120487.zip
+sleep 2
 mv sonarqube-26.3.0.120487 sonarqube
+sleep 2
 cd sonarqube/
-pwd: /home/ubuntu/sonarqube/sonarqube/bin/linux-x86-64
-Run: ./sonar.sh console
+sleep 2
+cd /home/ubuntu/sonarqube/sonarqube/bin/linux-x86-64
+sleep 2
+./sonar.sh console
+echo "Sonar Qube installation success"
+
+
 login to sonar through UI:
 public_ip:9000
 username and password = admin
