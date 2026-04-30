@@ -197,7 +197,7 @@ Take 3 Ubuntu machines,
 		Machine			Inbound			Outbound
 		Jenkins Master	22, 8080		all traffic		T3 micro, 12 GB memory.
 		Node-1			22				all traffic		T3 micro, 12 GB memory.
-		Nexus		22, 9000		all traffic		T2 Medium, 12 gb
+		Nexus		22, 8081		all traffic		T2 Medium, 12 gb
 
 Search for Download Nexus on Google and open the first link
 
